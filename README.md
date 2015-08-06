@@ -1,2 +1,2 @@
-# GithubFilesFilter
-GitHub Files Filter
+# GitHub Files Filter UserScript
+GitHub Files Filter UserScript
