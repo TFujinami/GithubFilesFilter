@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         github files filter userscript
 // @namespace    http://r-ism.com/tfujinami/
-// @version      1.20150805
+// @version      1.20150807
 // @description  github files filter userscript
 // @match        https://github.com/*
 // @copyright    2015+, Tsuyoshi Fujinami
@@ -25,9 +25,9 @@
 		trigger.toggleClass('is-disabled');
 		var extension = trigger.text();
 		if (trigger.hasClass('is-disabled')){
-			$.cookie(extension, 'hide', { path: '/' });
+			$.cookie(extension, 'hide', { path: '/', expires: 365 });
 		} else {
-			$.cookie(extension, 'show', { path: '/' });
+			$.cookie(extension, 'show', { path: '/', expires: 365 });
 		}
 		$(window).trigger('update');
 	});
