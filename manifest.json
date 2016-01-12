@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "GitHub Files Filter",
+	"version": "1.20150807",
+	"description": "GitHub Files Filter",
+	"content_scripts": [{
+		"matches": [
+			"https://github.com/*"
+		],
+		"js": [
+			"jquery.min.js",
+			"jquery.cookie.js",
+			"github-files-filter.user.js"
+		]
+	}]
+}
