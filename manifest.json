@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "GitHub Files Filter",
-	"version": "1.20150807",
+	"version": "1.20160209",
 	"description": "GitHub Files Filter",
 	"content_scripts": [{
 		"matches": [
@@ -10,7 +10,7 @@
 		"js": [
 			"jquery.min.js",
 			"jquery.cookie.js",
-			"github-files-filter.user.js"
+			"github-files-filter.js"
 		]
 	}]
 }

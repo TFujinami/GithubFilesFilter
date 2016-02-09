@@ -1,14 +1,3 @@
-// ==UserScript==
-// @name         github files filter userscript
-// @namespace    http://r-ism.com/tfujinami/
-// @version      1.20150908
-// @description  github files filter userscript
-// @match        https://github.com/*
-// @copyright    2015+, Tsuyoshi Fujinami
-// @require      https://code.jquery.com/jquery-latest.min.js
-// @require      https://raw.githubusercontent.com/carhartl/jquery-cookie/master/src/jquery.cookie.js
-// ==/UserScript==
-
 (function(){
 	var getExtension = function(text){
 		var file_path = text.trim();
