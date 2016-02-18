@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "GitHub Files Filter",
-	"version": "1.20160209",
+	"version": "1.16.2.18",
 	"description": "GitHub Files Filter",
 	"content_scripts": [{
 		"matches": [
