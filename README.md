@@ -4,6 +4,8 @@ GitHubの差分表示において、ファイルの拡張子ごとにフィル�
 
 ![](https://dl.dropboxusercontent.com/u/642277/GithubFilesFilter/screenshot1.png)
 
+↓
+
 ![](https://dl.dropboxusercontent.com/u/642277/GithubFilesFilter/screenshot2.png)
 
 https://chrome.google.com/webstore/detail/github-files-filter/bmcccpaakjliiacpcflaipmnjafhfnka  
